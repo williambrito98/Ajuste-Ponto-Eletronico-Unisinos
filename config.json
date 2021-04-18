@@ -1,9 +1,8 @@
 {
     "DATABASE": {
-        "IP": "",
-        "BD": "",
-        "USER": "",
+        "IP": "localhost",
+        "BD": "ajustes_ponto_eletronico",
+        "USER": "root",
         "PASSWORD": ""
-    },
-    "ICON_URL": {}
+    }
 }
