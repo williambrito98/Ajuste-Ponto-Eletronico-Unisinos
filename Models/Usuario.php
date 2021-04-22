@@ -20,6 +20,8 @@ class Usuario
         if (!$result) {
             return null;
         }
-        return mysqli_fetch_assoc($result);
+        $usuario = mysqli_fetch_assoc($result);
+        mysqli_close($this->conn);
+        return $usuario;
     }
 }
